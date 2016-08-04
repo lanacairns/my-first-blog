@@ -1,0 +1,274 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\CAI16131725>python--version
+'python--version' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\CAI16131725>python --version
+Python 3.5.2
+
+C:\Users\CAI16131725>git --version
+git version 2.9.2.windows.1
+
+C:\Users\CAI16131725>h:
+
+H:\>mkdir djangogirls
+
+H:\>cd djangogirls
+
+H:\djangogirls>python -m venv myvenv
+
+H:\djangogirls> myvenv\Scripts\activate
+(myvenv) H:\djangogirls>python -m ensurepip
+Ignoring indexes: https://pypi.python.org/simple
+Requirement already satisfied (use --upgrade to upgrade): setuptools in h:\djang
+ogirls\myvenv\lib\site-packages
+Requirement already satisfied (use --upgrade to upgrade): pip in h:\djangogirls\
+myvenv\lib\site-packages
+
+(myvenv) H:\djangogirls>python -m pip install --upgrade pip
+Collecting pip
+  Downloading pip-8.1.2-py2.py3-none-any.whl (1.2MB)
+    100% |################################| 1.2MB 846kB/s
+Installing collected packages: pip
+  Found existing installation: pip 8.1.1
+    Uninstalling pip-8.1.1:
+      Successfully uninstalled pip-8.1.1
+Successfully installed pip-8.1.2
+
+(myvenv) H:\djangogirls>python -m pip install django~=1.9.0
+Collecting django~=1.9.0
+  Downloading Django-1.9.9-py2.py3-none-any.whl (6.6MB)
+    100% |################################| 6.6MB 165kB/s
+Installing collected packages: django
+Successfully installed django-1.9.9
+
+(myvenv) H:\djangogirls> whoami
+belfastmet\cai16131725
+
+(myvenv) H:\djangogirls> pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls> ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls>Applications
+'Applications' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls>Desktop
+'Desktop' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls>Downloads
+'Downloads' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls>Music
+'Music' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls> cd desktop
+The system cannot find the path specified.
+
+(myvenv) H:\djangogirls> pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls> ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(myvenv) H:\djangogirls> dir
+ Volume in drive H is Data
+ Volume Serial Number is 7EE1-02E2
+
+ Directory of H:\djangogirls
+
+04/08/2016  10:25    <DIR>          .
+04/08/2016  10:25    <DIR>          ..
+04/08/2016  10:25                 7 Atom
+04/08/2016  10:13    <DIR>          myvenv
+               1 File(s)              7 bytes
+               3 Dir(s)     152,436,736 bytes free
+
+(myvenv) H:\djangogirls> cd Desktop
+The system cannot find the path specified.
+
+(myvenv) H:\djangogirls>python
+Python 3.5.2 (v3.5.2:4def2a2901a5, Jun 25 2016, 22:01:18) [MSC v.1900 32 bit (In
+tel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2 + 3
+5
+>>> 4*5
+20
+>>> 5-1
+4
+>>> 40/2
+20.0
+>>> "Lana"
+'Lana'
+>>> "Hi there" + "Lana"
+'Hi thereLana'
+>>> "Hi there" + "Lana"
+'Hi thereLana'
+>>> "Hi there " + "Lana"
+'Hi there Lana'
+>>> "Lana" * 3
+'LanaLanaLana'
+>>> "Runnin' down the hill"
+"Runnin' down the hill"
+>>> "Lana" .upper()
+'LANA'
+>>> len("Lana")
+4
+>>> len("Lana"))
+  File "<stdin>", line 1
+    len("Lana"))
+               ^
+SyntaxError: invalid syntax
+>>> len(str(304023))
+6
+>>> name + "Lana"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'name' is not defined
+>>> name = "Lana"
+>>> name
+'Lana'
+>>> len(name)
+4
+>>> a = 4
+>>> b = 6
+>>> a * b
+24
+>>> city = "Tokyo"
+>>> ctiy
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ctiy' is not defined
+>>> name = 'Maria'
+>>> name
+'Maria'
+>>> print(name)
+Maria
+>>> []
+[]
+>>> lottery = [3,42, 12, 19, 30, 59]
+>>> len(lottery)
+6
+>>> lottery.sort()
+>>> print(lottery)
+[3, 12, 19, 30, 42, 59]
+>>> lottery.reverse()
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3]
+>>> lottery.append(199)
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3, 199]
+>>> print(lottery[0])
+59
+>>> print(lottery[1])
+42
+>>> >>> print(lottery)
+  File "<stdin>", line 1
+    >>> print(lottery)
+     ^
+SyntaxError: invalid syntax
+>>> print(lottery)
+[59, 42, 30, 19, 12, 3, 199]
+>>> print(lottery[0])
+59
+>>> lottery.pop(0)
+59
+>>> print(lottery)
+[42, 30, 19, 12, 3, 199]
+>>> {}
+{}
+>>> particpant = {'name' : 'Lana', 'country': 'Ireland', 'favourite_numbers': [7
+,42,92]}
+>>> print(partipant['Lana'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'partipant' is not defined
+>>> print(participant['name'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'participant' is not defined
+>>> print(participant[ 'name' ])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'participant' is not defined
+>>> print(particpant['name'])
+Lana
+>>> particpant['favourite_language'] = 'Python'
+>>> participant['favourite_language'] = 'Python'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'participant' is not defined
+>>> len(particpant)
+4
+>>> particpant.pop('favourite_numbers')
+[7, 42, 92]
+>>> particpant['country'] = 'Germany'
+>>> particpant
+{'country': 'Germany', 'favourite_language': 'Python', 'name': 'Lana'}
+>>> 5 > 2
+True
+>>> 3 < 1
+False
+>>> 5 > 2 * 2
+True
+>>> 1 == 1
+True
+>>> 5!= 2
+True
+>>> 6 >= 12 / 2
+True
+>>> 3 <= 2
+False
+>>> 6 > 2 and 2 < 3
+True
+>>> 3 > 2 and 2 < 1
+False
+>>> 3 > 2 or 2 < 1
+True
+>>> 1 > 'django'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unorderable types: int() > str()
+>>> a + True
+5
+>>> a = True
+>>> a
+True
+>>> a = 2 > 5
+>>> a
+False
+>>> True and False
+False
+>>> True and True
+True
+>>> True or 1 ==1
+True
+>>> True or 1 == 1
+True
+>>> exit()
+
+(myvenv) H:\djangogirls>
